@@ -7,8 +7,10 @@ number.
 
   ● The minimum length of a password must be 6 characters and the maximum
   length is 9 characters.
+  
   ● If a password where the length is not between 6 and 9, an error message should
   be displayed and re prompt the user until a valid input is entered.
+  
   ● If a number is not available in a password the program should terminate by
   displaying an error message.
 
@@ -19,9 +21,13 @@ password as an input, encrypt it and display it to the user.
 The process of encryption is intended to work as follows:
 
   ● Add 4 to each digit of the password
+  
   ● Convert all simple letters to capital letters
+  
   ● Add the length of the string at the beginning of the password
+  
   ● Add * to the end of the password
+  
   ● Reverse the password such that it is read backwards.
 
 E.g.: Suppose the password is Hello3, then after adding 4, password becomes Hello7.
